@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <title>Compiler</title>
+</head>
+
+<body>
+  <style>
+    #editor {
+      height: 60vh;
+      border: 2px solid black;
+    }
+
+    #console {
+      background-color: black;
+      color: white;
+      height: 30vh;
+    }
+
+    button {
+      background-color: rgb(255, 193, 7);
+      margin: 5px;
+    }
+
+    select {
+      float: right;
+    }
+  </style>
+  <div id="top">
+    Type your code
+    <select id="lang">
+     <option value="0">python</option>
+     <option value="4">javascript</option>
+     <option value="7">c</option>
+     <option value="77">c++</option>
+     <option value="8">java</option>
+   </select>
+  </div>
+  <div id="editor" contenteditable="true">
+
+  </div>
+  <div id="console">OUTPUT:
+  </div>
+  <button id="compile">submit</button>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
